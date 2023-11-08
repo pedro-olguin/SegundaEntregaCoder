@@ -1,0 +1,109 @@
+/* colores: 
+bermellon: #e34b48
+rojo sonrosado: #ffa7a3
+amarillo naranja: #fed792
+gris claro: #8d8d69
+gris oscuro: #524e29
+*/
+
+
+.bodyContainer {
+    background-color: #e34b48;
+}
+
+.headerContainer {
+    background-color: rgba(141, 141, 105);
+}
+
+.fontStyle a {
+    font-size: 20px;
+
+    color: black;
+}
+
+.fontStyle a:hover {
+    color: #e34b48;
+
+}
+
+.redesIcon a {
+    color: black;
+}
+
+.redesIcon a:hover {
+    color: #e34b48;
+
+}
+
+/* media queries header*/
+.redesButtonContainer {
+    @media(max-width: 767px){
+        display: none;
+    }
+}
+
+.fontStyle a {
+    @media(max-width: 767px) {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+.galery {
+    @media(min-width: 767px) {
+
+    }
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: dotted #fed792 2px;
+}
+
+.horarios {
+    margin: 10px;
+    }
+
+
+.gMaps {
+    margin: 10px;
+}
+
+.footerContainer {
+    background-color: rgba(141, 141, 105);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @media (max-width: 767px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 576px){
+        grid-template-columns: 1fr;
+    }
+    
+
+}
+.horariosFooter {
+    font-size: 0.7rem;
+    margin: auto;
+}
+.logoFooterContainer {
+    text-align: center;
+}
+
+.buttonsFooterContainer {
+    text-align: center;
+    margin:auto;
+}
