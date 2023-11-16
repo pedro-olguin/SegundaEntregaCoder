@@ -35,13 +35,13 @@
 
 /* media queries header*/
 .redesButtonContainer {
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     display: none;
   }
 }
 
 .fontStyle a {
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 18px;
   }
 }
@@ -148,4 +148,45 @@ div.cajasContainer {
   @media (max-width: 576px) {
     grid-template-columns: 1fr;
   }
+}
+
+/* styles contacto */
+
+.cSobre {
+  display: flex;
+  justify-content: center;
+}
+
+.cMainContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgSobre {
+  width: 350px;
+  border-radius: 120px;
+  margin: 10px;
+}
+
+.cFormContainer {
+  width: 75%;
+  margin: 0 auto;
+  background: #a9a39a;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px auto;
+  width: 90%;
+  text-align: center;
+}
+textarea {
+  margin: 5px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.butContainer:hover {
+  color: #df0914;
 }

@@ -58,8 +58,37 @@
             </div>
         </nav>
     </header>
-    <main>
-       
+    <main class="container-fluid cMainContainer">
+        <figure class="cSobre mt-3">
+            <img class="imgSobre container-fluid" src="../assets/sobre.png" alt="sobre">
+        </figure>
+    
+    <section class="cFormContainer">
+        <h1>Contacto</h1>
+        <p>Aprovecha este espacio para llegar directamente a nosotros.</p>
+        <p>Realiza una reserva o dejanos un reclamo o sugerencia</p>
+        <form class="form" name="formulario">
+            <div class="cInput">
+                <label class="cLabel" for="nombre">Nombre</label><br>
+                <input type="text" placeholder="Nombre Completo" id="nombre" required>
+            </div>
+            <div class="cInput">
+                <label class="cLabel" for="email">Email</label><br>
+                <input type="email" placeholder="Correo Electronico" id="email" required>
+            </div>
+            <div class="cInput">
+                <label class="cLabel" for="telefono">Teléfono</label><br>
+                <input type="tel" placeholder="Telefono" id="telefono" required>
+            </div>
+            <div class="cInput">
+                <label for="comentario">Comentario</label><br>
+                <textarea name="" id="comentario" cols="30" rows="10"
+                    placeholder="Escribe un comentario"></textarea>
+            </div>
+            <input class="butContainer" type="submit" value="Enviar">
+            <input class="butContainer" type="reset" value="Reset">
+        </form>
+    </section>
     </main>
 
     <footer class="footerContainer rounded-bottom">
