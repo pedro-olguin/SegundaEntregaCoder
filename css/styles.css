@@ -159,7 +159,7 @@ div.cajasContainer {
 }
 
 .cFormContainer {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   background: #a9a39a;
   margin: 20px auto;
@@ -175,6 +175,7 @@ div.cajasContainer {
 .cFormContainer p {
   color: #df0914;
   text-decoration: underline;
+  padding: 5px;
 }
 
 label {
@@ -183,15 +184,33 @@ label {
 
 input {
   margin: 5px auto;
-  width: 90%;
+  width: 40%;
   text-align: center;
 }
 textarea {
   margin: 5px auto;
-  width: 90%;
+  width: 40%;
   text-align: center;
 }
 
 .butContainer:hover {
   color: #df0914;
+}
+input {
+  @media (max-width: 767px) {
+    width: 85%;
+  }
+
+  @media (max-width: 576px) {
+    width: 90%;
+  }
+}
+textarea {
+  @media (max-width: 767px) {
+    width: 85%;
+  }
+
+  @media (max-width: 576px) {
+    width: 90%;
+  }
 }
