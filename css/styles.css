@@ -214,3 +214,21 @@ textarea {
     width: 90%;
   }
 }
+
+/* Cartas */
+
+.cartasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.cartasImg {
+  max-width: 400px;
+  width: 90%;
+}
