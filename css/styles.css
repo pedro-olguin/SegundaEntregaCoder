@@ -10,7 +10,7 @@
 }
 
 .headerContainer {
-  background-color: rgba(141, 141, 105);
+  background-color: #a9a39a;
 }
 .buttonHeaderContainer {
   width: 141.61px;
@@ -87,7 +87,7 @@ div.cajasContainer {
 
 .butContainer {
   border-radius: 10px;
-  background-color: rgba(141, 141, 105);
+  background-color: #d0c8bd;
   margin: 5px auto;
   padding: 5px;
   border: none;
@@ -118,7 +118,7 @@ div.cajasContainer {
 
 /* footer */
 .footerContainer {
-  background-color: rgba(141, 141, 105);
+  background-color: #a9a39a;
   padding-top: 20px;
   margin-bottom: 20px;
   height: max-content;
@@ -152,28 +152,33 @@ div.cajasContainer {
 
 /* styles contacto */
 
-.cSobre {
-  display: flex;
-  justify-content: center;
-}
-
 .cMainContainer {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.imgSobre {
-  width: 350px;
-  border-radius: 120px;
-  margin: 10px;
-}
-
 .cFormContainer {
   width: 75%;
   margin: 0 auto;
   background: #a9a39a;
-  margin-bottom: 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.cFormContainer h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  font-weight: bolder;
+}
+.cFormContainer p {
+  color: #df0914;
+  text-decoration: underline;
+}
+
+label {
+  font-weight: bolder;
 }
 
 input {
